@@ -18,7 +18,7 @@ Of interest to us is the Data Widget ID and the script. For the embed to work in
 
 6 – In the "Heading" field put in some descriptive text like "Follow Our Reporters On Primary Night."
 
-7 – We'll be using the "Subheading" to make the magic happen, place this code in there:
+7 – We'll be using the "Subheading" field to make the magic happen, place this code in there:
 
     <a class="twitter-timeline" data-dnt="true" data-widget-id="XXXXXXXXXXX" href="#">_</a><script type="text/javascript" src="http://PATH.TO/twitter-widget.js"></script>
 
