@@ -8,7 +8,7 @@ Adapting the embed code for Twitter's widgets to build a block for Core Publishe
     <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/corgi" data-widget-id="251702382566719490">#corgi Tweets</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-Of interest to us is the Data Widget ID and the script. For the embed to work in Core Publisher, you will have to host a copy of the jscript on your own server. Copy everthing between the <script> tags (leaving the tags themselves out) and save it to a new file (ex: twitter-widget.js) and upload the file. Note the URL path and the Data Widget ID, you'll need them later.
+Of interest to us is the Data Widget ID and the script. For the embed to work in Core Publisher, you will have to host a copy of the jscript on your own server. Copy everthing between the script tags (leaving the tags themselves out) and save it to a new file (ex: twitter-widget.js) and upload the file. Note the URL path and the Data Widget ID, you'll need them later.
 
 3 – Open Core Publisher, and create a "Small Image Promo" block in the Core Publisher block factory (http://YOUR-URL.org/admin/structure/block-factory/promotional/treatment) [Note: the "Large Image Promo" block also works for this]
 
